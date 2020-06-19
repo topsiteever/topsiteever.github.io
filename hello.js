@@ -8,3 +8,12 @@ function sayHello(){
 } 
 
 console.log(sayHello());
+
+function echo() {
+     let str = 'echo';
+     let i = 0;
+     for (i; i < 3; i++) {
+          console.log(str);
+     }
+ }
+ echo();
